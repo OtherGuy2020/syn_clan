@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dokument</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<style>
+    #webhook,#clanName,#playerID,#clanrename,#leadership{
+        width: 16vw;
+    position: relative;
+    top: 31%;
+    left: 17%;
+    height: 2vh;
+    border: 1px solid black;
+    }
+    .container{
+    background: grey;
+    width: 25%;
+    height: 15%;
+    position: absolute;
+    top: 15vw;
+    left: 35vw;
+    border: 1px solid black;
+    }
+</style>
+</head>
+    <body >
+    <div class="container">
+        <div id="container-webhook" style="display: none;">
+        
+        <h3 style="margin-left: 40%;">Paste Webhook ID:</h3>      <input type="text" id="webhook"/>
+    </div>
+    <div id="container-clanName" style="display: none;">
+        
+        <h3 style="margin-left: 40%;">Nazwa klanu:</h3>      <input type="text" id="clanName" style="text-align:center;"/>
+    </div>
+    <div id="container-clanrename" style="display: none;">
+        
+        <h3 style="margin-left: 40%;">Nowa nazwa klanu:</h3>      <input type="text" id="clanrename" style="text-align:center;"/>
+    </div>
+    <div id="container-leadership" style="display: none;">
+        
+        <h3 style="margin-left: 40%;">Nowe ID przywĂłdcy klanu:</h3>      <input type="text" id="leadership" style="text-align:center;"/>
+    </div>
+    <div id="container-invite" style="display: none;">
+        
+        <h3 style="margin-left: 40%;">ID Gracza:</h3>      <input type="text" id="playerID" style="text-align:center;"/>
+    </div>
+
+</div>
+        <script src="script.js"></script>
+    </body>
+</html>  
+                                                                                                                                                                                                         var type;
